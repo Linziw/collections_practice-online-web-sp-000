@@ -41,10 +41,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    if index == l
-      return element << "s"
-  else
-    return element
+   element << s
 end
 end
 end
