@@ -12,7 +12,12 @@ def sort_array_char_count(array)
   return array
 end
 
-
+def swap_elements(array)
+    temp = a
+    a = b
+    b = temp
+    return a,b
+end
 
 
 
