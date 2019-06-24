@@ -43,6 +43,8 @@ def add_s(array)
   array.each_with_index.collect do |element, index|
    element << "s"
 end
+array[2].pop
+array
 end
 
 
