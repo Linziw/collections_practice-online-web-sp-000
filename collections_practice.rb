@@ -44,8 +44,6 @@ def add_s(array)
    unless index == 1
    element << "s"
 end
-
-return array
 end
 
 
