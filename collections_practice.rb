@@ -36,11 +36,16 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.inject #{|result, element| result + element}
+  array.inject {|result, element| result + element}
 end
 
 def add_s(array)
-  
+  array.each_with_index.collect do |element, index|
+    if index !== l
+      return element << "s"
+  else
+    return element
+end
 end
 
 
